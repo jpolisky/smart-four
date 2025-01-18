@@ -1,6 +1,6 @@
-import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-import { io } from 'socket.io-client';
+import * as THREE from "./three";
+import { OrbitControls } from "./three/addons/controls/OrbitControls.js";
+import { io } from './socket.io-client';
 
 const socket = io('https://smartfour-server.onrender.com');
 socket.on('connect', () => {
