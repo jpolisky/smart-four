@@ -2,5 +2,24 @@
   "dependencies": {
     "socket.io-client": "^4.8.1",
     "three": "^0.172.0"
-  }
+  },
+  "name": "smart-four",
+  "version": "1.0.0",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpolisky/smart-four.git"
+  },
+  "author": "jpolisky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpolisky/smart-four/issues"
+  },
+  "homepage": "https://github.com/jpolisky/smart-four#readme",
+  "description": ""
 }
